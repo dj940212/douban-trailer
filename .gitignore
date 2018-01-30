@@ -1,0 +1,9 @@
+node_modules
+
+dist
+
+.DS_Stroe
+
+build
+
+npm-debug.log

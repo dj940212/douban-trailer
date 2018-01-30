@@ -1,0 +1,27 @@
+{
+  "name": "douban-trailer",
+  "version": "1.0.0",
+  "description": "豆瓣预告片网站",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj940212/douban-trailer.git"
+  },
+  "keywords": [
+    "movie",
+    "trailer"
+  ],
+  "author": "ding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dj940212/douban-trailer/issues"
+  },
+  "homepage": "https://github.com/dj940212/douban-trailer#readme",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
