@@ -4,7 +4,7 @@
   "description": "豆瓣预告片网站",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,11 @@
   },
   "homepage": "https://github.com/dj940212/douban-trailer#readme",
   "dependencies": {
-    "koa": "^2.4.1"
+    "koa": "^2.4.1",
+    "koa-views": "^6.1.3",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
   }
 }
